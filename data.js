@@ -1,3 +1,8 @@
+/**
+* @param {string} json_url - The url to the json file containig the data
+* @param {string} name - The graph header
+* @param {string} id - The id of the html canvas tag
+*/
 function linegraph(json_url, name, id) {
 	$.ajax({
 		url: json_url,
