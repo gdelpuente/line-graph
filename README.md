@@ -2,10 +2,21 @@
 
 Hello word line graph using Chart.js
 
-In data.js
-function linegraph(json_url, name, id)
+Doc
+---
 
-In json the data
+#### In data.js
+
+```
+function linegraph(json_url, name, id)
+```
+
+* @param {string} json_url - The url to the json file containig the data
+* @param {string} name - The graph header
+* @param {string} id - The id of the html canvas tag
+
+#### In j.json
+the data to fill the graph
 
 Links
 ---
